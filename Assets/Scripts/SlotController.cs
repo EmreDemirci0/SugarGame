@@ -38,6 +38,7 @@ public class SlotController : MonoBehaviour
                     firstSugar = secondSugar;
                     secondSugar = null;
                 }
+                SugarController.Instance.SugarwinPointStart();
             }
         }
     }
